@@ -1,0 +1,79 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}*/
+
+nav.a {
+	color: #00B7FF;
+  	text-decoration: none;
+  	font-size: 30px;
+
+}
+
+//Coustoum Element Css
+
+.header{
+	 width: 800px;
+	 height: 80px;
+	 text-align: center;
+	 background-color:#BDBDBD;
+}
+
+.footer{
+
+	background-color:#BDBDBD;
+	text-align: center;
+
+}
+
+.leftMenu{
+	height: 500px;
+	width: 150px;
+	background-color:#f9f9f9;
+}
+
+.mainContent{
+	height: 500px;
+	width: 650px;
+	background-color:#E6E6E6;
+}
+
+.activeState{
+	color: #ffff00;
+	font-size: 30px;
+
+}
+
+a:hover{
+		color: #ff00ff;
+
+}
+
+//Bootstratp Css Override
+
+ul{
+	text-decoration: none;
+}
+
+span.complete-true{
+	color:gray;
+	font-style:italic;
+	text-decoration:line-through;
+}
+span[contenteditable="true"]{
+	background: gray;
+	padding: 5px;
+}
+
+.animate.ng-enter, .animate.ng-leave{
+	transition: 500ms linear all;
+}
+
+.animate.ng-leave.ng-leave-active{
+	opacity: 0;
+}
+
+
+.animate.ng-enter.ng-enter-active{
+	opacity: 0;
+}

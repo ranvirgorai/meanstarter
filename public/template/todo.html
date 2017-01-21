@@ -1,0 +1,27 @@
+
+<div class="panel panel-success">
+<div class="panel-heading">Add a Task: <input type="text" ng-keyup="serachEnter()" ng-model="taskText"></div>
+<div class="panel-body">
+
+<div class="row">
+<div class="container">
+<div id="taskToShow()">
+	<ol>
+	<li ng-repeat="tsk in task track by $index">
+
+		<input type="checkbox" ng-model="tsk.status">
+		<span contenteditable="false" ng-dblclick="contentEdit(tsk.mess)" ng-keydown="enterAgain(tsk.mess)" ng-model="tsk.mess" class="complete-{{tsk.status}}" >{{tsk.mess}}</span>
+	</li>
+	</ol>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+

@@ -1,0 +1,27 @@
+{
+  "name": "angexp",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Samal Gorai <samalgorai@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ranvirgorai/angApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.5.8",
+    "angular-bootstrap": "^2.1.1",
+    "angular-route": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.8",
+    "angulike": "^1.2.0",
+    "bootstrap": "^3.3.7",
+    "jquery-ui": "^1.12.0"
+  }
+}

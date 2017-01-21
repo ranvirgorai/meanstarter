@@ -1,0 +1,49 @@
+<input type="text" ng-model="searchBox.Name">
+<input type="text" ng-model="searchBox.Age">
+
+<ul>
+<li class="animate" ng-repeat="person in persons | filter:searchBox">
+	Name : {{person.Name}} Age: {{person.Age}}
+</li>
+</ul>
+
+<button ng-click="toogle()">Toggle</button>
+<div class="message" ng-show="show=='msg1'"><b>This is Msg 1</b></div>
+<div class="message" ng-show="show=='msg2'">This is Msg 2</div>
+
+
+
+
+{{msg}}
+
+<div class="container">
+            <div class="col-xs-3">
+                <div fb-like></div>
+                <!--
+                    Use this format for a custom URL
+                    <div fb-like="myModel.Url"></div>
+                -->
+            </div>
+            <div class="col-xs-3">
+                <div tweet="myModel.Name"></div>
+                <!--
+                    Use this format for a custom URL
+                    <div tweet="myModel.Name" tweet-url="myModel.Url"></div>
+                -->
+            </div>
+            <div class="col-xs-3">
+                <div google-plus></div>
+                <!--
+                    Use this format for a custom URL
+                    <div google-plus="myModel.Url"></div>
+                -->
+            </div>
+            <div class="col-xs-3">
+                <div pin-it="myModel.Name" pin-it-image="myModel.ImageUrl"></div>
+                <!--
+                    Use this format for a custom URL
+                    <div pin-it="myModel.Name" pin-it-image="myModel.ImageUrl" pin-it-url="myModel.Url"></div>
+                -->
+
+
+            </div>

@@ -1,0 +1,36 @@
+<h4 align="center">{{message}}</h4>
+
+<div class="container">
+
+
+<div class="panel panel-warning" >
+<div class="panel-heading">Registration</div>
+	<div class="panel-body" >
+	<form name="regForm">
+	<div class="form-group">
+	<div ><input type="text" placeholder="Enter UserName" class="form-control" ng-model="uName" name="uName" required></div>
+	<p style="color:red"><span ng-show="regForm.uName.$touched && regForm.uName.$invalid">Name is required.</span></p>
+
+	</div>
+	<div class="form-group">
+	<div ><input type="date" placeholder="Enter DOB" class="form-control" ng-model="uDob" required></div>
+	</div>
+	<div class="form-group">
+	<div ><input type="phone" placeholder="Enter PHONE" class="form-control" ng-model="uPhone" required></div>
+	</div>
+	<div class="form-group">
+	<div ><input type="email" placeholder="Enter Email" class="form-control" ng-model="uEmail" required></div>
+	</div>
+	<div class="form-group">
+	<button type="button" class="btn btn-info pull-right" ng-click="register()">Submmit</button>
+	</div>
+	</form>
+	<div class="panel-footer">
+		<a ui-sref="app.cources">Click Here To Login</a>
+	</div>
+	</div>
+
+
+
+</div>
+</div>
